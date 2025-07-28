@@ -20,7 +20,7 @@ Edit
 bash
 Copy
 Edit
-git clone https://github.com/your-username/fruits-counter-app.git
+git clone https://github.com/Ammara-Hussain/fruits-counter-app.git
 cd fruits-counter-app
 2. Install Dependencies
 bash
