@@ -1,12 +1,47 @@
-# React + Vite
+ Fruits Counter App
+This is a basic React project created using Vite. The app demonstrates how to pass props between components and render a dynamic list of fruits along with a total count.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📁 Project Structure
+pgsql
+Copy
+Edit
+├── public/
+├── src/
+│   ├── assets/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── Fruits.jsx
+│   ├── FruitsCounter.jsx
+│   └── main.jsx
+├── index.html
+└── package.json
+🚀 Getting Started
+1. Clone the Repository
+bash
+Copy
+Edit
+git clone https://github.com/your-username/fruits-counter-app.git
+cd fruits-counter-app
+2. Install Dependencies
+bash
+Copy
+Edit
+npm install
+3. Start the Dev Server
+bash
+Copy
+Edit
+npm run dev
+Visit: http://localhost:5173
 
-Currently, two official plugins are available:
+🧩 Features
+Renders a list of fruits.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Displays the total number of fruits using a child component.
 
-## Expanding the ESLint configuration
+Simple use of React props and .map().
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🛠 Built With
+React
+
+Vite
