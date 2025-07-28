@@ -1,5 +1,10 @@
  Fruits Counter App
 This is a basic React project created using Vite. The app demonstrates how to pass props between components and render a dynamic list of fruits along with a total count.
+Screenshot:
+
+<img width="1315" height="537" alt="fruit_counter" src="https://github.com/user-attachments/assets/36496cbe-925b-4d9e-a953-180147da4b2d" />
+
+
 
 📁 Project Structure
 pgsql
